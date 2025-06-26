@@ -5,3 +5,31 @@ A To-Do List application is a useful project that helps users manage
 and organize their tasks efficiently.
  This project aims to create a command-line or GUI-based application using Python, allowing
 users to create, update, and track their to-do lists
+
+1️⃣ DOM Element Selection
+
+🔹 taskInput – Where user types 🧠
+🔹 addBtn – Button to add ➕
+🔹 taskList – Displays all tasks 📋
+
+2️⃣ Task Storage(Array)
+3️⃣ Adding a Task
+
+4️⃣ Rendering Tasks
+🧹 Clears old list
+🔁 Loops through tasks[]:
+☑️ Checkbox for completion
+📄 Span with task text
+🗑️ Delete button
+📥 Appends to list
+
+5️⃣ Toggle Task Completion
+🔄 Toggles ✅/❌ for a task
+🧠 Uses index to access task
+📢 Re-renders list
+
+6️⃣ Delete a Task
+7️⃣ Event Listeners
+
+8️⃣ Initial Render
+🚀 Displays any pre-existing tasks on load

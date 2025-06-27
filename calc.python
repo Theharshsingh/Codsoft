@@ -1,2 +1,19 @@
-def calculator():
-   print("simple calculator")
+                               🧮 Task 2: Basic Calculator – CodSoft Python Internship
+
+As part of the CodSoft Python Internship, Task 2 was to build a Basic Calculator using Python.
+ This mini-project 📁 aimed to develop a command-line tool that performs the following operations:
+
+➕ Addition
+➖ Subtraction
+✖️ Multiplication
+➗ Division (with error handling for division by zero)
+
+🧑‍💻 Key Features & Learnings:
+
+1.Used functions to define each operation
+
+2.Applied conditional statements (if-else) to manage user choices
+
+3.Handled user input via input() and type casting
+
+4.Implemented basic error handling for division by zero

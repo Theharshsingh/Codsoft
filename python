@@ -17,11 +17,19 @@ print("1. Add")
 print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
+print("5. Exit")
 
-choice = input("Enter choice (1/2/3/4): ")
+choice = input("Enter choice (1/2/3/4/5): ")
 
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+if choice == '5':
+    print("Exiting the calculator. Goodbye!")
+    
+
+# Basic Calculator Program
+elif choice in ['1', '2', '3', '4']:
+    print("You selected option:", choice)
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
 
 if choice == '1':
     print("Result:", add(num1, num2))

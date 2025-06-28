@@ -7,3 +7,7 @@ This repository showcases a series of Python-based projects developed during the
 
 TASK 1   📁TO-DO LIST 
 Task 2:  🧮 Basic Calculator
+Task 3: 🔐 PASSWORD GENERATOR
+  
+
+ 
